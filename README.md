@@ -1,4 +1,4 @@
-# Jeu en Bash : Puissance 4 simplifié
+# Jeu en Bash : Puissance 4
 
 ## 🧩 Description
 Ce projet est un petit **jeu de Puissance 4 directement dans la commande interactivement**, entièrement codé en **Bash**.  
