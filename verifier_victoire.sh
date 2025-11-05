@@ -52,7 +52,7 @@ for ((j=0; j<cols; j++)); do
     done
 done
 
-# Vérifier diagonale montante (↗)
+# Vérifier diagonale descendante (↘)
 for ((i=0; i<=rows-4; i++)); do
     for ((j=0; j<=cols-4; j++)); do
         if [[ "$(get_case $i $j)" == "$joueur" && \
@@ -64,7 +64,7 @@ for ((i=0; i<=rows-4; i++)); do
     done
 done
 
-# Vérifier diagonale descendante (↘)
+# Vérifier diagonale montante (↗)
 for ((i=3; i<rows; i++)); do
     for ((j=0; j<=cols-4; j++)); do
         if [[ "$(get_case $i $j)" == "$joueur" && \
