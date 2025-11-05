@@ -2,8 +2,7 @@
 
 ## 🧩 Description
 Ce projet est un petit **jeu de Puissance 4 directement dans la commande interactivement**, entièrement codé en **Bash**.  
-Il permet de :
--jouer à deux joueurs l'un contre l'autre au puissance 4 classique
+Il permet de jouer à deux joueurs l'un contre l'autre au puissance 4 classique
 
 Le jeu s’appuie sur un fichier `grille.txt` pour stocker l’état de la grille entre les tours.
 
