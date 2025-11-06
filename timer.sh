@@ -8,6 +8,7 @@ while (( SECONDS < limit )); do
     if pgrep -f "puissance4.sh" > /dev/null; then
         echo ""
         echo "Vous avez démarré le jeu à temps !"
+        echo "il ne vous reste plus qu'à battre Léo"
         echo "Lancement de Puissance 4..."
         echo "Choisissez une colonne (1-7) : "
         exit 0
