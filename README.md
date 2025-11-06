@@ -26,30 +26,59 @@ Le jeu s’appuie sur un fichier `grille.txt` pour stocker l’état de la grill
 
 ### 1. Lancer le jeu
 ```bash
-bash histoire.sh
+./histoire.sh
 ```
 ### 1bis. Lancer une partie de puissance 4 
 ```bash
-bash puissance4.sh
+./puissance4.sh
 ```
 (tous les points suivants se font tout seul)
 ### 2. Créer une grille
 ```bash
-bash creer_grille.sh
+./creer_grille.sh
 ```
 ### 3. Jouer un coup X ou O
 ```bash
-bash jouer_coup.sh X
+./jouer_coup.sh X
 ```
 ou
 ```bash
-bash jouer_coup.sh O
+./jouer_coup.sh O
 ```
 ### 4. Afficher la grille actuelle
 ```bash
-bash afficher_grille.sh
+./afficher_grille.sh
 ```
 ### 5. Vérifier si un des joueurs a gagné (4 symboles alignés)
 ```bash
-bash verification_grille.sh
+./verification_grille.sh
+```
+## 💡 Solution du mini-jeu d'introduction
+
+Tout d'abord se donner les droits d'execution sur le script histoire.sh avec la commande
+```bash
+chmod +x histoire.sh
+```
+Lancer le script histoire.sh avec la commande
+
+```bash
+./histoire.sh
+```
+Puis pour trouver le jeu de puissance 4 il faut successivement aller dans les dossiers "maison" puis "salle_de_jeu" puis ".boite_puissance4" (qui est un fichier caché, en effet il y a trop de jeu dans la pièce, certains ont du être mis derrière d'autres) qui se trouve avec la commande ls -a (pour afficher les fichiers cachés).
+Pour cela executer la commande
+
+```bash
+cd maison/salle_de_jeu/.boite_puissance4/
+```
+ou successivement
+
+```bash
+cd maison
+cd salle_de_jeu
+cd .boite_puissance4
+```
+Une fois dans ce dernier fichier, il ne reste plus qu'à lancer le script puissance.sh avec la commande
+
+```bash
+./puissance4.sh
 ```
