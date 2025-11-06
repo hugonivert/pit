@@ -12,7 +12,8 @@ Le jeu s’appuie sur un fichier `grille.txt` pour stocker l’état de la grill
 
 | Fichier | Rôle |
 |----------|------|
-|`histoire.sh`| Script global qui lance l'histoire d'introduction et le timer. | 
+|`histoire.sh`| Script global qui lance l'histoire d'introduction et le timer. |
+|`timer.sh`| Script qui décompte le temps (5 min). |
 | `puissance4.sh` | Script qui lance la partie de puissance 4 et utilise les scripts suivants. |
 | `creer_grille.sh` | Crée une nouvelle grille vide (6 lignes × 7 colonnes) dans `grille.txt`. |
 | `afficher_grille.sh` | Affiche la grille actuelle ligne par ligne. |
@@ -22,13 +23,6 @@ Le jeu s’appuie sur un fichier `grille.txt` pour stocker l’état de la grill
 ---
 
 ## 🚀 Utilisation
-
-> ⚠️ **Attention :**
-> Avant de lancer les scripts, vous devez vous donner les droits d’exécution :
-> ```bash
-> chmod +x *.sh
-> ```
-
 
 ### 1. Lancer le jeu
 ```bash
